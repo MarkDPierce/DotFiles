@@ -1,0 +1,49 @@
+[user]
+	name = Mark Pierce
+	email = mark.pierce@debijenkorf.nl
+	username = MarkDPierce
+[credential]
+	helper = osxkeychain
+[url "git@github.com:"]
+    insteadOf = "git://github.com/"
+    insteadOf = "https://github.com/"
+	insteadOf = https://github.com/
+[init]
+	defaultBranch = master
+[core]
+	editor = code -n -w    # VS Code
+	ignorecase = false
+	excludesfile = ~/.gitignore_global
+[web]
+	browser = google-chrome
+[color]
+	ui = auto
+[color "branch"]
+	current = yellow bold
+	local = green bold
+	remote = cyan bold
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+[color "status"]
+	added = green bold
+	changed = yellow bold
+	untracked = red bold
+[diff]
+	tool = vimdiff
+[fetch]
+	prune = true
+[core]
+	excludesfile = /Users/markpierce/.gitignore
+[pretty]
+    pretty-history = format:%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset
+[alias]
+	lg = log --graph --pretty=pretty-history --abbrev-commit --date=relative
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

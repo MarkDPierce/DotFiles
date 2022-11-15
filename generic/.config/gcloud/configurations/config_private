@@ -1,0 +1,8 @@
+[core]
+project = mdp-synology
+account = mark.pierce.d@gmail.com
+
+[compute]
+region = europe-west4
+zone = europe-west4-b
+

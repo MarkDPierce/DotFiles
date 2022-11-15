@@ -1,0 +1,8 @@
+[core]
+project = dbk-host-dev
+account = mark.pierce@debijenkorf.nl
+
+[compute]
+region = europe-west4
+zone = europe-west4-b
+
