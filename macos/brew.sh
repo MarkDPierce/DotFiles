@@ -69,6 +69,7 @@ brew install git
 brew install git-lfs
 brew install gh
 brew install tree
+brew install promtool
 
 # Terminal setup
 brew install iterm2
