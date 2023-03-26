@@ -7,7 +7,7 @@ function Build-Choco{
         "kubernetes-helm",
         "oh-my-posh",
         "Pester",
-        "pwsh",
+        #"pwsh", #TODO: The function further on requires PWSH since its in parallel
         "starship",
         "terraform",
         "vlc",
